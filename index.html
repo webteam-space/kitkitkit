@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      KITKITKIT.SPACE
+    </title>
+<style>
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  .blink {
+    animation: blink .5s linear infinite;
+  }
+
+  .blink2 {
+    animation: blink .25s 2s linear infinite; 
+  }
+  
+  body {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
+
+  a, a:link, a:visited, a:focus {
+    color: pink;
+      font-size: 4rem;
+  }
+</style>
+  </head>
+  <body style="background: #000 url('img/kit.space.jpg'); background-size: cover;">
+    <h1 style="font-family: Comic Sans MS, Comic Sans, cursive; font-size: 8rem; color: #0ffff0;
+      transform: rotate(-15deg);">
+      <span class="blink">
+        you have found kit</span><small class="blink2" style="color: #f0000f;">.space</small>
+    </h1>
+
+    <audio><source src="music.mp3" type="audio/mp3"></audio>
+    <a style="position: fixed; bottom: 0; display: block;" href="http://webteam.space">PORTaL!!!!!</a>
+
+    <script>
+     document.querySelector("audio").play()
+    </script>
+  </body>
+</html>
